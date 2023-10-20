@@ -1,0 +1,61 @@
+@import "var";
+// @import "button";
+// @import "mixins/card";
+// nav {
+//   background-color: $navBackground;
+//   ul {
+//     @include card(90%, 20px, 10px, 100px);
+//     display: flex;
+//     justify-content: $navSpaces;
+//     li {
+//       list-style: none;
+//       padding: 20px;
+//       a {
+//         color: $navLinks;
+//         text-decoration: none;
+//         @extend .button;
+//         &:hover {
+//           color: $navHover;
+//         }
+//       }
+//     }
+//   }
+// }
+header {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  .card-top {
+    background-color: pink;
+    height: 6.25rem;
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+  }
+  div {
+    width: 24rem;
+    h4 {
+    }
+    p {
+    }
+    .btn {
+
+      width: 100%;
+      height: 3rem;
+      gap: 4rem;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: white;
+        
+      }
+      .second-btn{
+        background-color: pink;padding: 2rem;
+      }
+    }
+  }
+}
